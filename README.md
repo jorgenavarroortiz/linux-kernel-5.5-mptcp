@@ -1,6 +1,6 @@
 # Kernel 5.5 with MPTCP support
 
-Guide to install MPTCP (from [here](https://www.multipath-tcp.org/)), Jorge Navarro-Ortiz (jorgenavarro@ugr.es), University of Granada, 2021.
+Guide to install MPTCP with Linux kernel 5.5 for PCs (x86-64 architecture) (from [here](https://www.multipath-tcp.org/)), Jorge Navarro-Ortiz (jorgenavarro@ugr.es), University of Granada, 2021.
 
 Used for the [virtual testbed](https://github.com/jorgenavarroortiz/5g-clarity_testbed_v0) for the H2020 European Project [5G-CLARITY](https://www.5gclarity.com/). We had some issues with the drivers for the Intel AX201 WiFi6 card, which were solved with Linux kernel 5.5. So this is the main reason to use this kernel (and not others available at [here](http://multipath-tcp.org/patches/)).
 
@@ -23,7 +23,7 @@ This patch is based on the one for kernel 5.4 ([here](http://multipath-tcp.org/p
 
 Alternatively, you can download the source code from this repo, which has this patch already applied (no need to apply it again).
 
-## Kernel compilation (AMD x86-64 architecture)
+## Kernel compilation (x86-64 architecture)
 
 Please execute the following commands:
 
@@ -67,7 +67,7 @@ To apply the patch:
 
 # Kernel 5.5 with MPTCP support and WRR for Raspberry Pi 4
 
-Guide to install MPTCP, Jorge Navarro-Ortiz (jorgenavarro@ugr.es), University of Granada, 2021.
+Guide to install MPTCP with Linux kernel 5.5 for Raspberry Pi 4, Jorge Navarro-Ortiz (jorgenavarro@ugr.es), University of Granada, 2021.
 
 Used for the [virtual testbed](https://github.com/jorgenavarroortiz/5g-clarity_testbed_v0) for the H2020 European Project [5G-CLARITY](https://www.5gclarity.com/).
 
