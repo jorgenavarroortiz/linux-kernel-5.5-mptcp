@@ -2,7 +2,7 @@
 
 Guide to install MPTCP (from [here](https://www.multipath-tcp.org/)), Jorge Navarro-Ortiz (jorgenavarro@ugr.es), University of Granada, 2021.
 
-Used for the [virtual testbed](https://github.com/jorgenavarroortiz/5g-clarity_testbed_v0) for the H2020 European Project [5G-CLARITY](https://www.5gclarity.com/).
+Used for the [virtual testbed](https://github.com/jorgenavarroortiz/5g-clarity_testbed_v0) for the H2020 European Project [5G-CLARITY](https://www.5gclarity.com/). We had some issues with the drivers for the Intel AX201 WiFi6 card, which were solved with Linux kernel 5.5. So this is the main reason to use this kernel (and not others available at [here](http://multipath-tcp.org/patches/)).
 
 You can generate a Linux kernel 5.5 with MPTCP support by following these steps.
 
