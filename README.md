@@ -2,7 +2,7 @@
 
 Guide to install MPTCP (from [here](https://www.multipath-tcp.org/)), Jorge Navarro-Ortiz (jorgenavarro@ugr.es), University of Granada, 2021.
 
-Used for the (virtual testbed)[https://github.com/jorgenavarroortiz/5g-clarity_testbed_v0] for the (H2020 European Project 5G-CLARITY)[https://www.5gclarity.com/].
+Used for the [virtual testbed](https://github.com/jorgenavarroortiz/5g-clarity_testbed_v0) for the H2020 European Project [5G-CLARITY](https://www.5gclarity.com/).
 
 You can generate a Linux kernel 5.5 with MPTCP support by following these steps.
 
