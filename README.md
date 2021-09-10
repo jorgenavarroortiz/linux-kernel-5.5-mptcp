@@ -10,8 +10,8 @@ You can generate a Linux kernel 5.5 with MPTCP support by following these steps.
 
 ```
 wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.5.tar.gz
-cd linux
 tar xvfz ./linux-5.5.tar.gz
+cd linux
 ```
 
 2) Apply the patch:
