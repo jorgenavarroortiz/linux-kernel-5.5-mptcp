@@ -11,7 +11,7 @@ You can generate a Linux kernel 5.5 with MPTCP support by following these steps.
 ```
 wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.5.tar.gz
 tar xvfz ./linux-5.5.tar.gz
-cd linux
+cd linux-5.5
 ```
 
 2) Apply the patch:
@@ -26,10 +26,11 @@ Alternatively, you can download the source code from this repo, which has this p
 
 ## Kernel compilation (x86-64 architecture)
 
-Please execute the following commands:
+Please execute the following commands. When executing make menuconfig please follow the instructions at https://multipath-tcp.org/pmwiki.php/Users/DoItYourself to properly configure the kernel for MPTCP support.
 
 ```
 sudo make clean
+make menuconfig
 make -j`nproc`
 make -j`nproc` bindeb-pkg
 ```
