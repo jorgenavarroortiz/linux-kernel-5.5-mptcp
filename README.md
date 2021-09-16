@@ -67,7 +67,7 @@ To apply the patch:
  - Execute "patch -p1 < ../mptcp-vXXX.patch"
 
 
-# Kernel 5.5 with MPTCP support and WRR for Raspberry Pi 4
+# Kernel 5.5 with MPTCP support for Raspberry Pi 4
 
 Guide to install MPTCP with Linux kernel 5.5 for Raspberry Pi 4, Jorge Navarro-Ortiz (jorgenavarro@ugr.es), University of Granada, 2021.
 
